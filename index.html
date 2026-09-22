@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+    <!-- REMIXICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>My Portfolio Website - M Rizky S</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="blob-animate"></div>
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">M.<span>R</span>izky <span>S</span>.</a>
+
+        <button
+          class="nav__toggle"
+          id="nav-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+        >
+          <i class="ri-menu-3-line"></i>
+        </button>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li>
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- CUSTOM CURSOR -->
+      <div class="cursor"></div>
+
+      <!-- HOME -->
+      <section class="home section section-top section-two" id="home">
+        <div class="home__shadow"></div>
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__greeting">Hello, I'm</h3>
+            <h1 class="home__name">
+              M. Rizky <br />
+              Saputra
+            </h1>
+          </div>
+
+          <div class="home__image">
+            <div class="blob-animate"></div>
+            <img
+              src="assets/img/hero-profile1.png"
+              alt="M. Rizky Saputra"
+              class="home__profile"
+            />
+          </div>
+
+          <div class="home__info">
+            <h3 class="home__split">Professional</h3>
+            <h2 class="home__profession-1">IoT & Network</h2>
+            <h2 class="home__profession-2">Engineer</h2>
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              class="home__social-link"
+              title="GitHub"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              class="home__social-link"
+              title="LinkedIn"
+            >
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="home__social-link"
+              title="Instagram"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              class="home__social-link"
+              title="Facebook"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+          </div>
+
+          <a
+            href="#about"
+            class="home__cv"
+            >Explore <i class="ri-arrow-down-line"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about__shadow"></div>
+
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              <span>Technology Educator</span>
+              <br />
+              & Digital Problem Solver
+            </h2>
+            <p class="about__description">
+              An <b>Information Technology Education</b> professional with hands-on experience in
+              <b>technical support, computer networking, digital administration, and classroom technology</b>.
+              Combining educational practice with <b>MikroTik, LAN, IoT, multimedia production, and visual design</b>
+              to create reliable technical and learning solutions.
+            </p>
+
+            <a
+              href="#contact"
+              class="button"
+              >Let's Connect <i class="ri-send-plane-fill"></i
+            ></a>
+          </div>
+
+          <div class="about__image">
+            <div class="blob-animate"></div>
+            <div class="blob-animate"></div>
+            <img
+              src="assets/img/img-1.png"
+              alt="Rizky Saputra Showcase"
+              class="about__profile"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">
+          Featured <br />
+          <span>Projects</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <div class="projects__swiper swiper">
+            <div class="swiper-wrapper">
+              
+              <!-- Project 1: Video Editing -->
+              <article class="projects__card swiper-slide" data-project="video-editing">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>01</h1>
+                  <h3>Multimedia</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">Cinematic Video Production</h1>
+                  <p class="projects__subtitle">Tools & Skills</p>
+                  <p class="projects__description">
+                    Adobe Premiere Pro, After Effects, Sound Design & Color Grading
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/video-editing.jpg"
+                    alt="Video Editing Project"
+                    class="projects__img"
+                  />
+                </div>
+              </article>
+
+              <!-- Project 2: Graphic Design -->
+              <article class="projects__card swiper-slide" data-project="graphic-design">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>02</h1>
+                  <h3>Creative Design</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">Brand Identity & Graphics</h1>
+                  <p class="projects__subtitle">Tools & Skills</p>
+                  <p class="projects__description">
+                    Adobe Photoshop, Illustrator, Vector Art & Visual Branding
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/Design.png"
+                    alt="Graphic Design Project"
+                    class="projects__img"
+                  />
+                </div>
+              </article>
+
+              <!-- Project 3: IT Support -->
+              <article class="projects__card swiper-slide" data-project="it-support">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>03</h1>
+                  <h3>Infrastructure</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">IT Support & Networks</h1>
+                  <p class="projects__subtitle">Tools & Skills</p>
+                  <p class="projects__description">
+                    Mikrotik, Cisco, Cloud Setup, Network Security & Maintenance
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/it-support.jpg"
+                    alt="IT Support Project"
+                    class="projects__img"
+                  />
+                </div>
+              </article>
+
+              <!-- Project 4: IoT Engineering -->
+              <article class="projects__card swiper-slide" data-project="iot-engineering">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>04</h1>
+                  <h3>IoT & Hardware</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">Smart IoT Systems</h1>
+                  <p class="projects__subtitle">Tools & Skills</p>
+                  <p class="projects__description">
+                    ESP32 / Arduino, MQTT Protocol, Sensors & Web Dashboard
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/iot-enginer.jpg"
+                    alt="IoT Engineering Project"
+                    class="projects__img"
+                  />
+                </div>
+              </article>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="work section" id="experience">
+        <h2 class="section__title">
+          <span>My Career</span>
+          <br />
+          & Education
+        </h2>
+
+        <div class="work__container container grid">
+          <div class="work__tabs">
+            <!-- Button Experience -->
+            <button class="work__button work-active" data-target="#experience-tab">
+              Experience <i class="ri-briefcase-3-line"></i>
+            </button>
+
+            <!-- Button Education -->
+            <button class="work__button" data-target="#education-tab">
+              Education <i class="ri-graduation-cap-line"></i>
+            </button>
+          </div>
+
+          <div class="work__area">
+            <div class="work__line"></div>
+
+            <!-- Content Experience -->
+            <div class="work__content work-active" data-content id="experience-tab">
+              <div class="work__card">
+                <div class="work__data">
+                  <div>
+                    <h1 class="work__title">Guru Praktik Bidang TI</h1>
+                    <h3 class="work__subtitle">SMK Negeri 13 Bandung</h3>
+                  </div>
+                  <h2 class="work__year">2024-<br />2025</h2>
+                </div>
+
+                <p class="work__description">
+                  Supported technical learning activities through computer maintenance, troubleshooting lab devices, network practice, and digital administration.
+                </p>
+              </div>
+
+              <div class="work__card">
+                <div class="work__data">
+                  <div>
+                    <h1 class="work__title">Guru Kejuruan TIK</h1>
+                    <h3 class="work__subtitle">SMK Negeri 4 Tanjungpinang</h3>
+                  </div>
+                  <h2 class="work__year">2023-<br />2024</h2>
+                </div>
+
+                <p class="work__description">
+                  Delivered networking, computer systems, and ICT practice materials while preparing technical learning resources, evaluation, and documentation.
+                </p>
+              </div>
+
+              <div class="work__card">
+                <div class="work__data">
+                  <div>
+                    <h1 class="work__title">Asisten Adaptasi Teknologi</h1>
+                    <h3 class="work__subtitle">Program Kampus Mengajar Angkatan 2</h3>
+                  </div>
+                  <h2 class="work__year">Aug-<br />Dec 2021</h2>
+                </div>
+
+                <p class="work__description">
+                  Assisted school digitalization and technology adaptation through practical support for digital systems and classroom technology use.
+                </p>
+              </div>
+            </div>
+
+            <!-- Content Education -->
+            <div class="work__content" data-content id="education-tab">
+              <div class="work__card">
+                <div class="work__data">
+                  <div>
+                    <h1 class="work__title">PPG Bidang Pengembangan Perangkat Lunak dan Gim</h1>
+                    <h3 class="work__subtitle">Universitas Pendidikan Indonesia</h3>
+                  </div>
+                  <h2 class="work__year">2024-<br />2025</h2>
+                </div>
+
+                <p class="work__description">
+                  Teacher Professional Education focused on Software and Game Development, classroom practice, applied programming, and digital learning environments.
+                </p>
+              </div>
+
+              <div class="work__card">
+                <div class="work__data">
+                  <div>
+                    <h1 class="work__title">S1 Pendidikan Teknologi Informasi</h1>
+                    <h3 class="work__subtitle">Universitas Slamet Riyadi</h3>
+                  </div>
+                  <h2 class="work__year">2019-<br />2023</h2>
+                </div>
+
+                <p class="work__description">
+                  Undergraduate foundation in information technology education, computer systems, digital learning media, and technical communication.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services section" id="services">
+        <h2 class="section__title">What I <span>Offer</span></h2>
+
+        <div class="services__container container grid">
+          <!-- Service 1: IoT & Networking -->
+          <div class="services__card services__close">
+            <div class="blob"></div>
+
+            <div class="services__data">
+              <h2 class="services__title">Network & IoT Practice</h2>
+              <p class="services__description">
+                Practical support for LAN networking, MikroTik configuration, basic IoT projects, computer systems, and technical learning labs.
+              </p>
+            </div>
+
+            <div class="services__info">
+              <h3 class="services__subtitle">Core Skills</h3>
+
+              <ul class="services__skills">
+                <li class="services__skill">MikroTik</li>
+                <li class="services__skill">LAN Networking</li>
+                <li class="services__skill">Internet of Things</li>
+                <li class="services__skill">Computer Systems</li>
+                <li class="services__skill">Network Troubleshooting</li>
+                <li class="services__skill">Hardware Support</li>
+              </ul>
+            </div>
+
+            <button class="services__button">
+              <i class="ri-arrow-down-s-line"></i>
+            </button>
+          </div>
+
+          <!-- Service 2: Multimedia & Design -->
+          <div class="services__card services__close">
+            <div class="blob blob-2"></div>
+
+            <div class="services__data">
+              <h2 class="services__title">Multimedia & Design</h2>
+              <p class="services__description">
+                Video editing, cinematic color grading, sound design, visual storytelling, brand identity, and digital graphics.
+              </p>
+            </div>
+
+            <div class="services__info">
+              <h3 class="services__subtitle">Creative Tools</h3>
+
+              <ul class="services__skills">
+                <li class="services__skill">Adobe Premiere Pro</li>
+                <li class="services__skill">Adobe After Effects</li>
+                <li class="services__skill">Adobe Photoshop</li>
+                <li class="services__skill">Adobe Illustrator</li>
+                <li class="services__skill">Audio Mastering</li>
+                <li class="services__skill">Motion Graphics</li>
+              </ul>
+            </div>
+
+            <button class="services__button">
+              <i class="ri-arrow-down-s-line"></i>
+            </button>
+          </div>
+
+          <!-- Service 3: Software & Game Dev -->
+          <div class="services__card services__close">
+            <div class="blob"></div>
+
+            <div class="services__data">
+              <h2 class="services__title">Technology Education</h2>
+              <p class="services__description">
+                Applied learning support for ICT, computer systems, networking practice, digital learning media, and technical communication.
+              </p>
+            </div>
+
+            <div class="services__info">
+              <h3 class="services__subtitle">Learning Focus</h3>
+
+              <ul class="services__skills">
+                <li class="services__skill">ICT Learning</li>
+                <li class="services__skill">Computer Systems</li>
+                <li class="services__skill">Network Practice</li>
+                <li class="services__skill">Digital Learning Media</li>
+                <li class="services__skill">Technical Documentation</li>
+              </ul>
+            </div>
+
+            <button class="services__button">
+              <i class="ri-arrow-down-s-line"></i>
+            </button>
+          </div>
+
+          <!-- Service 4: IT Support -->
+          <div class="services__card services__close">
+            <div class="blob blob-2"></div>
+
+            <div class="services__data">
+              <h2 class="services__title">IT Support & Digital Administration</h2>
+              <p class="services__description">
+                Computer troubleshooting, device maintenance, software support, spreadsheet-based data management, and digital system administration.
+              </p>
+            </div>
+
+            <div class="services__info">
+              <h3 class="services__subtitle">Core Competencies</h3>
+
+              <ul class="services__skills">
+                <li class="services__skill">Hardware Troubleshooting</li>
+                <li class="services__skill">Software Support</li>
+                <li class="services__skill">Google Sheets</li>
+                <li class="services__skill">System Administration</li>
+                <li class="services__skill">Device Maintenance</li>
+              </ul>
+            </div>
+
+            <button class="services__button">
+              <i class="ri-arrow-down-s-line"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="credentials section" id="credentials">
+        <div class="credentials__container container">
+          <p class="credentials__eyebrow">Professional Development</p>
+          <h2 class="section__title">Selected <span>Credentials</span></h2>
+
+          <div class="credentials__grid">
+            <article class="credentials__card">
+              <i class="ri-award-line"></i>
+              <div>
+                <h3>Sertifikat Pendidik Profesi Guru (PPG)</h3>
+                <p>Professional teaching credential in Software and Game Development.</p>
+                <span>2025 · Kemendikbudristek RI</span>
+              </div>
+            </article>
+
+            <article class="credentials__card">
+              <i class="ri-medal-line"></i>
+              <div>
+                <h3>Program Kampus Mengajar</h3>
+                <p>Technology adaptation and school digitalization program.</p>
+                <span>2021 · Kemendikbudristek RI</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials section">
+        <h2 class="section__title">
+          <span>What They Say</span>
+          <br />
+          About Me
+        </h2>
+
+        <div class="testimonials__container container grid">
+          <!-- Testimonial Cards 1-->
+          <div class="testimonial__content">
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-1.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">Academic Mentor</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Rizky is a highly dedicated engineer and educator. His expertise in Software & Game Development, combined with strong networking fundamentals, makes him a standout professional.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-2.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">IoT Project Lead</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Working with Rizky on IoT sensor integration was seamless. He provided practical troubleshooting, clear architecture design, and smooth connectivity solutions.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-3.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">Creative Client</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Rizky combines technical hardware mastery with exceptional multimedia flair. His video editing, color grading, and graphic designs exceeded all expectations.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-4.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">IT Supervisor</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Rizky is exceptionally reliable in IT support and network configuration. He quickly diagnoses infrastructure issues and maintains high operational standards.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Testimonial Cards 2-->
+          <div class="testimonial__content testimonials__reverse">
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-1.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">Academic Mentor</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Rizky is a highly dedicated engineer and educator. His expertise in Software & Game Development, combined with strong networking fundamentals, makes him a standout professional.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-2.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">IoT Project Lead</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Working with Rizky on IoT sensor integration was seamless. He provided practical troubleshooting, clear architecture design, and smooth connectivity solutions.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-3.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">Creative Client</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Rizky combines technical hardware mastery with exceptional multimedia flair. His video editing, color grading, and graphic designs exceeded all expectations.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <img
+                  src="assets/img/testimonial-4.png"
+                  alt="image"
+                  class="testimonials__img"
+                />
+
+                <h2 class="testimonials__name">IT Supervisor</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Rizky is exceptionally reliable in IT support and network configuration. He quickly diagnoses infrastructure issues and maintains high operational standards.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <h2 class="section__title">Get In Touch</h2>
+
+            <p class="contact__description">Let's collaborate on your next Networking, IoT, or Multimedia project.</p>
+
+            <a href="mailto:m.rizkysaputra@email.com" class="contact__button button">
+              Send Email <i class="ri-mail-send-line"></i>
+            </a>
+          </div>
+
+          <div class="contact__content grid">
+            <div class="contact__info grid">
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <address class="contact__address">
+                  m.rizkysaputra@gmail.com
+                </address>
+              </div>
+
+              <div>
+                <h3 class="contact__title">Locations</h3>
+                <address class="contact__address">
+                  - Bandung City, West Java<br />
+                  - Surakarta City, Central Java<br />
+                </address>
+              </div>
+            </div>
+
+            <div class="contact__social">
+              <h3 class="contact__title">Social Profiles</h3>
+
+              <div class="contact__links">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  GitHub
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+
+                <a
+                  href="https://linkedin.com/"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  LinkedIn
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  Instagram
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  Facebook
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer grid">
+      <div class="blob-animate"></div>
+
+      <div class="footer__copy">
+        Crafted with Passion by <span>M. Rizky Saputra</span>
+      </div>
+
+      <div class="footer__year">
+        &#169;
+        <span id="footer-year">2025</span>
+      </div>
+    </footer>
+
+    <!-- SCROLLREVEAL -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- ANIME JS -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- PROJECT MODAL -->
+    <div class="project-modal" id="project-modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close">
+          <i class="ri-close-line"></i>
+        </button>
+
+        <div class="modal-header">
+          <span class="modal-number" id="modal-number">01</span>
+          <h2 class="modal-title" id="modal-title">Project Title</h2>
+          <p class="modal-category" id="modal-category">Category</p>
+        </div>
+
+        <img src="" alt="Project" class="modal-image" id="modal-image">
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">
+            <i class="ri-file-text-line"></i>
+            Project Overview
+          </h3>
+          <p class="modal-description" id="modal-description"></p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">
+            <i class="ri-code-box-line"></i>
+            Technologies Used
+          </h3>
+          <div class="modal-tech-stack" id="modal-tech-stack"></div>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">
+            <i class="ri-checkbox-circle-line"></i>
+            Key Highlights
+          </h3>
+          <ul class="modal-highlights" id="modal-highlights"></ul>
+        </div>
+
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scroll-top">
+      <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <!-- AUDIO PLAYER WIDGET -->
+    <div class="audio-player" id="audio-player" title="Play background music: Be Creative and Free">
+      <audio id="bg-audio" src="assets/audio/Be Creative and Free.mp3" loop></audio>
+      <button class="audio-btn" id="audio-toggle-btn" aria-label="Toggle Audio">
+        <i class="ri-play-fill" id="audio-icon"></i>
+        <span class="audio-bars">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </span>
+      </button>
+      <span class="audio-title">Be Creative</span>
+    </div>
+  </body>
+</html>

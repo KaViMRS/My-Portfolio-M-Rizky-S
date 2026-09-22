@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinematic Video Production | Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css"/>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .project-detail{padding:8rem 0 4rem;min-height:100vh}.project-detail__container{max-width:1200px;margin:0 auto;padding:0 1.5rem}.project-detail__header{text-align:center;margin-bottom:4rem}.project-detail__number{font-size:1.5rem;color:var(--first-color);margin-bottom:1rem}.project-detail__title{font-size:3rem;color:var(--title-color);margin-bottom:1rem}.project-detail__category{font-size:1.25rem;color:var(--text-color);opacity:.8}.project-detail__hero{width:100%;height:500px;border-radius:2rem;overflow:hidden;margin-bottom:4rem;box-shadow:0 8px 32px rgba(0,0,0,.1)}.project-detail__hero img{width:100%;height:100%;object-fit:cover}.project-detail__section{background:var(--container-color);padding:2.5rem;border-radius:1.5rem;margin-bottom:2rem}.project-detail__section-title{font-size:1.75rem;color:var(--title-color);margin-bottom:1.5rem;display:flex;align-items:center;gap:.75rem}.project-detail__section-title i{color:var(--first-color);font-size:2rem}.project-detail__description{font-size:1.125rem;line-height:1.8;color:var(--text-color);margin-bottom:1.5rem}.tech-badge{background:var(--first-color);color:#fff;padding:.75rem 1.5rem;border-radius:2rem;display:inline-block;margin:.5rem;font-size:.95rem}.project-detail__highlights{list-style:none}.project-detail__highlights li{display:flex;gap:1rem;margin-bottom:1rem;font-size:1.05rem;color:var(--text-color)}.project-detail__highlights li i{color:var(--first-color);font-size:1.5rem;margin-top:.15rem}.project-action-btn{display:inline-flex;align-items:center;gap:.75rem;background:var(--first-color);color:#fff;padding:1rem 2rem;border-radius:3rem;text-decoration:none;margin:.5rem;transition:all .3s}.project-action-btn:hover{background:var(--first-color-alt);transform:translateY(-4px)}.back-btn{background:var(--container-color);color:var(--title-color);border:2px solid var(--first-color)}.back-btn:hover{background:var(--first-color);color:#fff}@media(max-width:768px){.project-detail__title{font-size:2rem}.project-detail__hero{height:300px}}
+  </style>
+</head>
+<body>
+  <div class="cursor"></div>
+  <section class="project-detail">
+    <div class="project-detail__container">
+      <div class="project-detail__header">
+        <p class="project-detail__number">PROJECT 01</p>
+        <h1 class="project-detail__title">Cinematic Video Production</h1>
+        <p class="project-detail__category">Multimedia & Creative Content</p>
+      </div>
+      <div class="project-detail__hero"><img src="assets/img/video-editing.jpg" alt="Video Production"></div>
+      <div class="project-detail__section">
+        <h2 class="project-detail__section-title"><i class="ri-file-text-line"></i>Overview</h2>
+        <p class="project-detail__description">Produksi video sinematik profesional dengan penguasaan storytelling visual melalui color grading, sound design, dan visual effects tingkat lanjut. Setiap frame dirancang untuk mengubah momen biasa menjadi pengalaman visual yang memikat.</p>
+        <p class="project-detail__description">Dari konsep kreatif hingga final delivery, saya menangani seluruh proses produksi video dengan perhatian detail tinggi untuk corporate videos, promotional content, dan documentary-style storytelling.</p>
+      </div>
+      <div class="project-detail__section">
+        <h2 class="project-detail__section-title"><i class="ri-tools-line"></i>Technologies</h2>
+        <span class="tech-badge">Adobe Premiere Pro</span><span class="tech-badge">After Effects</span><span class="tech-badge">DaVinci Resolve</span><span class="tech-badge">Adobe Audition</span><span class="tech-badge">Color Grading</span><span class="tech-badge">Sound Design</span>
+      </div>
+      <div class="project-detail__section">
+        <h2 class="project-detail__section-title"><i class="ri-star-line"></i>Highlights</h2>
+        <ul class="project-detail__highlights">
+          <li><i class="ri-checkbox-circle-fill"></i><span>Color grading workflow sinematik profesional dengan LUT custom</span></li>
+          <li><i class="ri-checkbox-circle-fill"></i><span>Audio mixing dan sound design tingkat lanjut</span></li>
+          <li><i class="ri-checkbox-circle-fill"></i><span>Motion graphics dan visual effects integration</span></li>
+          <li><i class="ri-checkbox-circle-fill"></i><span>Multi-camera editing untuk event coverage</span></li>
+          <li><i class="ri-checkbox-circle-fill"></i><span>Export profesional untuk berbagai platform (YouTube 4K, Instagram, TikTok)</span></li>
+        </ul>
+      </div>
+      <div style="text-align:center;padding:2rem 0">
+        <a href="https://youtube.com/@yourusername" target="_blank" class="project-action-btn"><i class="ri-youtube-line"></i>Portfolio Video</a>
+        <a href="https://github.com/yourusername" target="_blank" class="project-action-btn"><i class="ri-github-line"></i>GitHub</a>
+        <a href="index.html#projects" class="project-action-btn back-btn"><i class="ri-arrow-left-line"></i>Kembali</a>
+      </div>
+    </div>
+  </section>
+  <script>const cursor=document.querySelector(".cursor");let mouseX=0,mouseY=0;const cursorMove=()=>{cursor.style.left=mouseX+"px";cursor.style.top=mouseY+"px";cursor.style.transform="translate(-50%, -50%)";requestAnimationFrame(cursorMove)};document.addEventListener("mousemove",e=>{mouseX=e.clientX;mouseY=e.clientY});cursorMove();</script>
+</body>
+</html>
